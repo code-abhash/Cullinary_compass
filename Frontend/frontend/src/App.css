@@ -3,6 +3,7 @@
     padding: 20px;
     max-width: 600px;
     margin: auto;
+    color: rgb(121, 174, 174);
   }
   
   .form-group {
@@ -52,4 +53,8 @@
   .recipe-item h3 {
     margin-top: 0;
   }
-  
+  body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

@@ -21,7 +21,7 @@ function App() {
       });
       setRecommendedRecipes(response.data);
     } catch (error) {
-      setError('An error occurred while fetching recommendations. Please try again.');
+      setError('Error Fetching Recepies Of Given Dish Please Try Again!!!');
       console.error('Error:', error.message);
     } finally {
       setLoading(false);
