@@ -1,4 +1,4 @@
-# CULLINARY COMPASS
+# CULINARY COMPASS
 
 This project is based on suggesting recepie to user based on food, ingredients and time constraint provided by user. 
 
@@ -79,6 +79,18 @@ npm i
 ```bash
 npm run dev
 ```
+
+## Workflow of Model
+
+1.Preprocessing of dataset by cleaning and standarizing text fields.
+
+2.Feature extraction using TfidfVectorizer from scikit-learn to transform the 'combined_features' into a TF-IDF matrix (tfidf_matrix).
+
+3.To check similarity between different recipie we used 'cosine_sim'.
+
+4.One function to recommend recipie based on dish_name , ingredients , maximumtime
+
+5.Data Cleaning Function to clean and format ingredients list
 
 
 ## Some refrences that we used for making model
